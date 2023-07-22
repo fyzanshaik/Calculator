@@ -1,50 +1,53 @@
 body, html {
-    margin: 0;
-    padding: 0;
-    background-color: tomato;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  
-  .result-box {
-    border: 2px solid #ccc;
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  #resultValue {
-    font-size: 24px;
-    font-weight: bold;
-    color: #007BFF; 
-    background-color: black; 
-    padding: 5px 10px;
-    border-radius: 4px;
-  }
-  
-  #copyButton {
-    margin-top: 10px;
-    padding: 8px 16px;
-    font-size: 16px;
-    border: none;
-    background-color: #007BFF; 
-    color: #fff; 
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  #copyButton:hover {
-    background-color: #0056b3; 
-  }
-  
-  #copyButton:active {
-    background-color: #003974; 
-  }
-  
+  margin: 0;
+  padding: 0;
+  background-color: #222; /* Dark background color */
+}
+h1 {
+  color: antiquewhite;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.result-box {
+  border: 2px solid #444; /* Darker border color */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); /* Darker shadow */
+  background-color: aquamarine; /* Darker background color */
+}
+
+#resultValue {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007BFF; /* Blue result text color */
+  background-color: #222; /* Dark background color for result box */
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+#copyButton {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  background-color: #007BFF; /* Blue button background color */
+  color: #fff; /* White button text color */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#copyButton:hover {
+  background-color: #0056b3; /* Darker blue button background color on hover */
+}
+
+#copyButton:active {
+  background-color: #003974; /* Even darker blue button background color on active */
+}
