@@ -16,11 +16,11 @@ Before running the calculator web app, ensure you have the following prerequisit
 
 1. Clone the repository to your local machine:
  ```bash
-   git clone https://github.com/your-username/calculator-app.git
+  git clone https://github.com/fyzanshaik/Calculator.git
 ```
 2.Navigate to the project directory:
 ```bash
-  cd calculator-app
+  cd Calculator
 ```
 3.Install the required dependencies:
 ```bash
