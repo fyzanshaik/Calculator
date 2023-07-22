@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>Calculator</h1>
+  </header>
+
+  <main>
+    <form action="/submit" method="post">
+      <label for="number1">Number(1):</label>
+      <input type="number" name="number1" id="number1" required>
+      
+      <label for="number2">Number(2):</label>
+      <input type="number" name="number2" id="number2" required>
+      
+      <fieldset>
+        <legend>Operation:</legend>
+        <input type="radio" name="operation" id="addition" value="addition">
+        <label for="addition">Addition (+)</label><br>
+
+        <input type="radio" name="operation" id="subtraction" value="subtraction">
+        <label for="subtraction">Subtraction (-)</label><br>
+
+        <input type="radio" name="operation" id="multiplication" value="multiplication">
+        <label for="multiplication">Multiplication (*)</label><br>
+
+        <input type="radio" name="operation" id="division" value="division">
+        <label for="division">Division (/)</label><br>
+      </fieldset>
+
+      <input type="submit" value="Calculate">
+    </form>
+  </main>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator Result</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href ="../styles.css">
+</head>
+<body>
+    <div class="container">
+      <h1>Calculator Result</h1>
+      <div class="result-box">
+        <p>The result is: </p>
+        <p id="resultValue"><%= result %></p>
+        <br>
+        <button id="copyButton" onclick="copyToClipboard()">Copy</button>
+      </div>
+    </div>
+
+    <script>
+      function copyToClipboard() {
+        const resultValue = document.getElementById("resultValue");
+        const textArea = document.createElement("textarea");
+        textArea.value = resultValue.textContent;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textArea);
+        alert("Result copied to clipboard!");
+      }
+    </script>
+</body>
+</html>
