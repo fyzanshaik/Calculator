@@ -27,7 +27,7 @@ To run the calculator web app, use the following command:
 ```bash
   npm start
 ```
-# The server will start running on http://localhost:3000 by default. You can change the port number in the `server.js` file if needed.
+# The server will start running on http://localhost:3000 by default. You can change the port number in the `app.js` file if needed.
 
 ## How the App Works
 - Open your web browser and visit `http://localhost:3000`.
